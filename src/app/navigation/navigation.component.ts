@@ -16,6 +16,7 @@ export class NavigationComponent {
     routeListener: Subscription;
     variant: DrawerLayoutVariantType;
     navItems = [APP_NAV_ITEMS.home, APP_NAV_ITEMS.page1, APP_NAV_ITEMS.page2];
+    open = false;
 
     constructor(
         private readonly _router: Router,

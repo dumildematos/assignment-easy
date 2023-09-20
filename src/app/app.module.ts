@@ -13,7 +13,7 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 
 //brightlayer-ui modules
-import { DrawerModule, EmptyStateModule } from '@brightlayer-ui/angular-components';
+import { DrawerModule, EmptyStateModule, InfoListItemModule, UserMenuModule } from '@brightlayer-ui/angular-components';
 
 //material modules
 import { MatToolbarModule } from '@angular/material/toolbar';
@@ -50,6 +50,8 @@ import { PageOneComponent } from './pages/page-one/page-one.component';
         MatIconModule,
         DrawerModule,
         EmptyStateModule,
+        UserMenuModule,
+        InfoListItemModule
     ],
     bootstrap: [AppComponent],
 })
